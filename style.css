@@ -1,0 +1,148 @@
+import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Oxygen:wght@300;700&family=Satisfy&family=Slabo+27px&display=swap');
+/* this is the style for the body*/
+
+body{
+   font-family: 'Oswald', sans-serif;
+
+  }
+
+  main{
+  margin: 0 auto;
+  max-width: 1000px;
+  padding:10px;
+
+}
+
+
+h2{
+  color:blue;
+  background-color: white;
+  text-align-left;
+}
+
+Header img{
+  margin:0 auto;
+  display:block;
+  width: 150px;
+  height: 100px;
+            
+}
+
+.logo{
+margin: 0 auto;
+display:block;
+padding-top:4px;
+}
+
+nav{
+
+  background-color: #2C0C59;
+
+}
+
+
+nav ul{
+  list-style-type: none;
+    text-align:center;
+    padding: 8px 0;
+    margin-top:0;
+    margin:0 auto;
+
+}
+nav li{
+  display: inline;
+    padding: 8px 10px;
+
+}
+
+
+nav a{
+    text-decoration:none;
+    text-transform:uppercase;
+}
+nav a:link{
+color:purple;
+}
+nav a:visited {
+color:purple;
+}
+nav a:hover  {
+color:orange;
+}
+nav a:active  {
+color:blue;
+}
+
+p{
+  line-height:2.0;
+}
+
+h3{
+  color:blue;
+  background-color: white;
+}
+
+
+
+.about ul{
+  overflow:hidden;
+
+}
+
+.resume{ 
+width:80%;
+margin:0 auto;
+text-align: left;
+}
+
+.col-sm-6 {
+    text-align:left;
+    
+
+}
+
+
+.col-sm-4 h3{
+    text-align:center;
+}
+blockquote{
+  margin:30px;
+}
+footer{
+  color:white;
+  background-color: #2C0C59;
+  text-align:center;
+  padding:0px;
+  margin:0;
+  display:block;
+}
+footer a:link{
+    color:white;
+}
+
+.icons .fa{
+  font-size: 5em;
+    color: #35cad2;
+  
+}
+.icons{
+  text-align:center;
+  padding: 0px 0 ;
+    color: #35cad2;
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+  }
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+  h1{
+      font-size: 1.5em;
+  }
+}
